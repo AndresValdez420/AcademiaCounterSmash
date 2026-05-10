@@ -5,7 +5,7 @@ const server = http.createServer((request, response) => {
     response.setHeader("Access-Control-Allow-Origin", "*");
     switch(request.method){
         case "GET":
-            if(request.url == "obtener_personajes"){
+            if(request.url == "/obtener_personajes"){
                 console.log("intento obtener personajes");
             }
         break;
