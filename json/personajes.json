@@ -1,0 +1,244 @@
+{
+  "personajes": [
+    {
+      "id": 1,
+      "name": "Mario",
+      "series": "Super Mario Bros. series",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/mario/mark.svg",
+      "stats": {
+        "peso": 98,
+        "gravity": 0.087,
+        "walk-speed": 1.155,
+        "run-speed": 1.76
+      },
+      "extras": {
+        "best-player": {
+          "name": "Snow (スノー)",
+          "pic": "https://ssb.wiki.gallery/images/thumb/a/aa/Snow.jpg/160px-Snow.jpg",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/mario/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 2,
+      "name": "Donkey Kong",
+      "series": "Donkey Kong series",
+      "stats": {
+        "peso": 127,
+        "gravity": 0.081,
+        "walk-speed": 1.03,
+        "run-speed": 1.87
+      },
+      "extras": {
+        "best-player": {
+          "name": "HIKARU",
+          "pic": "https://ssb.wiki.gallery/images/thumb/6/67/HIKARU.jpg/160px-HIKARU.jpg",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 3,
+      "name": "Link",
+      "series": "The Legend of Zelda series",
+      "stats": {
+        "peso": 104,
+        "gravity": 0.09,
+        "walk-speed": 1.247,
+        "run-speed": 1.534
+      },
+      "extras": {
+        "best-player": {
+          "name": "T",
+          "pic": "https://ssb.wiki.gallery/images/thumb/5/58/TPrimeSaga.JPG/160px-TPrimeSaga.JPG",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/link/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 4,
+      "name": "Samus",
+      "series": "Metroid series",
+      "stats": {
+        "peso": 108,
+        "gravity": 0.066,
+        "walk-speed": 1.115,
+        "run-speed": 1.654
+      },
+      "extras": {
+        "best-player": {
+          "name": "Yaura",
+          "pic": "https://ssb.wiki.gallery/images/thumb/5/59/Yaura.jpg/160px-Yaura.jpg",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/samus/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 5,
+      "name": "Yoshi",
+      "series": "Yoshi series",
+      "stats": {
+        "peso": 104,
+        "gravity": 0.093,
+        "walk-speed": 1.208,
+        "run-speed": 1.759
+      },
+      "extras": {
+        "best-player": {
+          "name": "Yoshidora",
+          "pic": "https://ssb.wiki.gallery/images/thumb/8/83/Yoshidora.jpg/160px-Yoshidora.jpg",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/yoshi/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 6,
+      "name": "Kirby",
+      "series": "Kirby series",
+      "stats": {
+        "peso": 79,
+        "gravity": 0.08,
+        "walk-speed": 0.84,
+        "run-speed": 1.747
+      },
+      "extras": {
+        "best-player": {
+          "name": "JeJaJeJa",
+          "pic": "https://ssb.wiki.gallery/images/thumb/2/2d/JeJaJeJa.jpg/160px-JeJaJeJa.jpg",
+          "flag": "https://flagsapi.com/CL/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/kirby/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 7,
+      "name": "Fox",
+      "series": "Star Fox series",
+      "stats": {
+        "peso": 77,
+        "gravity": 0.23,
+        "walk-speed": 1.603,
+        "run-speed": 2.402
+      },
+      "extras": {
+        "best-player": {
+          "name": "Light",
+          "pic": "https://ssb.wiki.gallery/images/thumb/7/72/Light.jpg/160px-Light.jpg",
+          "flag": "https://flagsapi.com/US/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/fox/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 8,
+      "name": "Pikachu",
+      "series": "Pokémon series",
+      "stats": {
+        "peso": 79,
+        "gravity": 0.08,
+        "walk-speed": 1.302,
+        "run-speed": 2.039
+      },
+      "extras": {
+        "best-player": {
+          "name": "ShinyMark",
+          "pic": "https://ssb.wiki.gallery/images/thumb/0/05/ShinyMark.jpg/160px-ShinyMark.jpg",
+          "flag": "https://flagsapi.com/GT/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/pikachu/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 9,
+      "name": "Luigi",
+      "series": "Super Mario Bros. series",
+      "stats": {
+        "peso": 97,
+        "gravity": 0.069,
+        "walk-speed": 1.008,
+        "run-speed": 1.65
+      },
+      "extras": {
+        "best-player": {
+          "name": "Raru",
+          "pic": "https://ssb.wiki.gallery/images/thumb/9/9c/Raru.jpg/160px-Raru.jpg",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/luigi/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 10,
+      "name": "Ness",
+      "series": "EarthBound series",
+      "stats": {
+        "peso": 94,
+        "gravity": 0.09,
+        "walk-speed": 1.04,
+        "run-speed": 1.694
+      },
+      "extras": {
+        "best-player": {
+          "name": "Gackt",
+          "pic": "https://ssb.wiki.gallery/images/thumb/b/b0/Gackt.jpg/160px-Gackt.jpg",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/ness/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 11,
+      "name": "Captain Falcon",
+      "series": "F-Zero series",
+      "stats": {
+        "peso": 104,
+        "gravity": 0.12,
+        "walk-speed": 1.112,
+        "run-speed": 2.552
+      },
+      "extras": {
+        "best-player": {
+          "name": "Jogibu",
+          "pic": "https://ssb.wiki.gallery/images/thumb/2/26/Jogibu.jpg/160px-Jogibu.jpg",
+          "flag": "https://flagsapi.com/JP/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/captain_falcon/main2.png"
+        }
+      }
+    },
+
+    {
+      "id": 12,
+      "name": "Jigglypuff",
+      "series": "Pokémon series",
+      "stats": {
+        "peso": 68,
+        "gravity": 0.064,
+        "walk-speed": 0.735,
+        "run-speed": 1.271
+      },
+      "extras": {
+        "best-player": {
+          "name": "BassMage",
+          "pic": "https://ssb.wiki.gallery/images/thumb/e/e0/BassMage.jpg/160px-BassMage.jpg",
+          "flag": "https://flagsapi.com/US/flat/64.png",
+          "char-alt": "https://www.smashbros.com/assets_v2/img/fighter/purin/main2.png"
+        }
+      }
+    }
+  ]
+}

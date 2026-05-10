@@ -30,38 +30,35 @@
             <a href="">HOME</a>
             <div id="buscador-container">
                 <div id="search-bar">
-                    <button id="hamburguesa"><i class="fa-solid fa-bars"></i></button>
-
+                    <button onclick="desplegarMenuSeries()" id="hamburguesa"><i class="fa-solid fa-bars"></i></button>
                     <input type="text" placeholder="Nombre / serie del personaje">
-
-                    <button href="#"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <div id="menu-hamburguesa">
                     <div id="plantilla-burger-options">
-                        <img src="" alt="icono">
-                        <a href="#">Super Mario Bros. series</a>
-                    </div>
-                    <div id="plantilla-burger-options">
-                        <img src="" alt="icono">
-                        <a href="#">Super Mario Bros. series</a>
-                    </div>
-                    <div id="plantilla-burger-options">
-                        <img src="" alt="icono">
-                        <a href="#">Super Mario Bros. series</a>
-                    </div>
-                    <div id="plantilla-burger-options">
-                        <img src="" alt="icono">
+                        <img src="https://www.smashbros.com/assets_v2/img/fighter/mario/mark.svg" alt="icono">
                         <a href="#">Super Mario Bros. series</a>
                     </div>
                 </div>
             </div>
             <a href="">USUARIO WIP</a>
         </div>
-
-
-
     </nav>
     <div id="contenedor-cartas-personaje">
+        <div class="carta-personaje">
+            <div class="info-personaje">
+                <h2 class="name-personaje">Mario</h2>
+                <img class="iconoSerie-personaje" src="https://www.smashbros.com/assets_v2/img/fighter/mario/mark.svg" alt="icono-personaje">
+            </div>
+            <img class="render-personaje" src="https://images.wikidexcdn.net/mwuploads/esssbwiki/thumb/4/44/latest/20180613001020/Mario_SSBU.png/800px-Mario_SSBU.png" alt="render-personaje">
+        </div>
+        <div class="carta-personaje">
+            <div class="info-personaje">
+                <h2 class="name-personaje">Placeholder</h2>
+                <img class="iconoSerie-personaje" src="" alt="icono-personaje">
+            </div>
+            <img class="render-personaje" src="https://images.wikidexcdn.net/mwuploads/esssbwiki/thumb/4/44/latest/20180613001020/Mario_SSBU.png/800px-Mario_SSBU.png" alt="render-personaje">
+        </div>
         <div class="carta-personaje">
             <div class="info-personaje">
                 <h2 class="name-personaje">Mario</h2>
@@ -85,7 +82,7 @@
             <div id="contenedor-columnas">
                 <!----------------------COLUMNA 2----------------------------------------->
                 <div class="footer-columna">
-                    <div id="columna-title">
+                    <div class="columna-title" onclick="desplegarMenuFooter(this)">
                         <p>Personajes de Super Smash Bros. 64 <i class="fa-solid fa-caret-down"></i></p>
                     </div>
                     <div class="cont-footer-personajes">
@@ -105,7 +102,7 @@
                 </div>
                 <!----------------------COLUMNA 4----------------------------------------->
                 <div class="footer-columna">
-                    <div id="columna-title">
+                    <div class="columna-title" onclick="desplegarMenuFooter(this)">
                         <p>Personajes de Super Smash Bros. Melee <i class="fa-solid fa-caret-down"></i></p>
                     </div>
                     <div class="cont-footer-personajes">
@@ -127,7 +124,7 @@
                 </div>
                 <!----------------------COLUMNA 5----------------------------------------->
                 <div class="footer-columna">
-                    <div id="columna-title">
+                    <div class="columna-title" onclick="desplegarMenuFooter(this)">
                         <p>Personajes de Super Smash Bros. Brawl <i class="fa-solid fa-caret-down"></i></p>
                     </div>
                     <div class="cont-footer-personajes">
@@ -151,7 +148,7 @@
                 </div>
                 <!----------------------COLUMNA 6----------------------------------------->
                 <div class="footer-columna">
-                    <div id="columna-title">
+                    <div class="columna-title" onclick="desplegarMenuFooter(this)">
                         <p>Personajes de Super Smash Bros. 4 <i class="fa-solid fa-caret-down"></i></p>
                     </div>
                     <div class="cont-footer-personajes">
@@ -178,7 +175,7 @@
                 </div>
                 <!----------------------COLUMNA 7----------------------------------------->
                 <div class="footer-columna">
-                    <div id="columna-title">
+                    <div class="columna-title" onclick="desplegarMenuFooter(this)">
                         <p>Personajes de Super Smash Bros. Ultimate <i class="fa-solid fa-caret-down"></i></p>
                     </div>
                     <div class="cont-footer-personajes">
@@ -211,5 +208,5 @@
         </div>
     </footer>
 </body>
-
+<script src="../js/index.js"></script>
 </html>
