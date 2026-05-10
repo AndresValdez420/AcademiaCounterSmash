@@ -1,3 +1,19 @@
+//Duplicar cartas de personaje
+const contenedor_cartas_personaje = document.querySelector("#contenedor-cartas-personaje");
+const confesionPlantilla = document.querySelector(".carta-personaje");
+
+fetch("http://localhost:3000/obtener_personajes")
+
+
+
+
+
+
+
+
+
+
+
 //nav menu hamburguesa
 const menu_hamburguesa = document.querySelector("#menu-hamburguesa");
 function desplegarMenuSeries(){
