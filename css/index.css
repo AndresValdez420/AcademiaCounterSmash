@@ -1,3 +1,8 @@
+:root{
+    /*---fonts*/
+    --fuente-titulos: "Spline Sans", sans-serif;
+    --fuente-descripcion: "Roboto", sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -27,6 +32,7 @@
 }
 #hero-titulo{
     font-size: 5rem;
+    font-family: var(--fuente-titulos);
 }
 #hero-descripcion{
     line-height: 1.5;
@@ -35,6 +41,7 @@
     font-size: 1.7rem;
     width: 50%;
     font-weight: lighter;
+    font-family: var(--fuente-descripcion);
 }
 /*----------------------------------------------------------------------*/
 /*---------------------------------NAV-------------------------------------*/
@@ -158,15 +165,20 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    padding: 40px;
+    gap: 80px;
+    padding: 60px;
 }
 .carta-personaje{
     height: 400px;
-    background-color: blue;
+    background: linear-gradient(90deg,rgba(70, 112, 66, 1) 0%, rgba(87, 207, 43, 1) 50%, rgba(85, 184, 28, 1) 100%);
     position: relative;
     overflow: visible;
     filter: drop-shadow(8px 8px 10px gray);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.carta-personaje.hover{
+    outline: 7px solid rgb(245, 201, 5);
 }
 
 .info-personaje{
@@ -185,6 +197,7 @@
     color: white;
     font-size: 45px;
     font-weight: bold;
+    font-family: var(--fuente-titulos);
 }
 
 .iconoSerie-personaje{
@@ -195,11 +208,16 @@
 }
 .render-personaje{
     position: absolute;
-    bottom: 15px;
+    bottom: 1px;
     left: 50%;
     transform: translateX(-50%);
     /*filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.5));*/
-    height: 420px;
+    height: 450px;
+    transition: 0.2s;
+}
+.render-personaje.hover{
+    height: 460px;
+    filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.5));
 }
 /*----------------------------------------------------------------------*/
 /*---------------------------------FOOTER-------------------------------------*/

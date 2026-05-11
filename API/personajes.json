@@ -3,7 +3,9 @@
     {
       "id": 1,
       "name": "Mario",
+      "codename": "mario",
       "series": "Super Mario Bros. series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/mario/main.png",
       "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/mario/mark.svg",
       "stats": {
         "peso": 98,
@@ -24,7 +26,10 @@
     {
       "id": 2,
       "name": "Donkey Kong",
+      "codename": "donkey_kong",
       "series": "Donkey Kong series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/mark.svg",
       "stats": {
         "peso": 127,
         "gravity": 0.081,
@@ -44,7 +49,10 @@
     {
       "id": 3,
       "name": "Link",
+      "codename": "link",
       "series": "The Legend of Zelda series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/link/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/link/mark.svg",
       "stats": {
         "peso": 104,
         "gravity": 0.09,
@@ -64,7 +72,10 @@
     {
       "id": 4,
       "name": "Samus",
+      "codename": "samus",
       "series": "Metroid series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/samus/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/samus/mark.svg",
       "stats": {
         "peso": 108,
         "gravity": 0.066,
@@ -84,7 +95,10 @@
     {
       "id": 5,
       "name": "Yoshi",
+      "codename": "yoshi",
       "series": "Yoshi series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/yoshi/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/yoshi/mark.svg",
       "stats": {
         "peso": 104,
         "gravity": 0.093,
@@ -104,7 +118,10 @@
     {
       "id": 6,
       "name": "Kirby",
+      "codename": "kirby",
       "series": "Kirby series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/kirby/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/kirby/mark.svg",
       "stats": {
         "peso": 79,
         "gravity": 0.08,
@@ -124,7 +141,10 @@
     {
       "id": 7,
       "name": "Fox",
+      "codename": "fox",
       "series": "Star Fox series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/fox/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/fox/mark.svg",
       "stats": {
         "peso": 77,
         "gravity": 0.23,
@@ -144,7 +164,10 @@
     {
       "id": 8,
       "name": "Pikachu",
+      "codename": "pikachu",
       "series": "Pokémon series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/pikachu/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/pikachu/mark.svg",
       "stats": {
         "peso": 79,
         "gravity": 0.08,
@@ -164,7 +187,10 @@
     {
       "id": 9,
       "name": "Luigi",
+      "codename": "luigi",
       "series": "Super Mario Bros. series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/luigi/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/luigi/mark.svg",
       "stats": {
         "peso": 97,
         "gravity": 0.069,
@@ -184,7 +210,10 @@
     {
       "id": 10,
       "name": "Ness",
+      "codename": "ness",
       "series": "EarthBound series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/ness/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/ness/mark.svg",
       "stats": {
         "peso": 94,
         "gravity": 0.09,
@@ -204,7 +233,10 @@
     {
       "id": 11,
       "name": "Captain Falcon",
+      "codename": "captain_falcon",
       "series": "F-Zero series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/captain_falcon/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/captain_falcon/mark.svg",
       "stats": {
         "peso": 104,
         "gravity": 0.12,
@@ -224,7 +256,10 @@
     {
       "id": 12,
       "name": "Jigglypuff",
+      "codename": "jigglypuff",
       "series": "Pokémon series",
+      "render": "https://www.smashbros.com/assets_v2/img/fighter/purin/main.png",
+      "seriesIcon": "https://www.smashbros.com/assets_v2/img/fighter/purin/mark.svg",
       "stats": {
         "peso": 68,
         "gravity": 0.064,
