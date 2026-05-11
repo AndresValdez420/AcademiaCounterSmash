@@ -53,9 +53,6 @@
     overflow: visible;
     z-index: 1000;
 }
-#navbar a{
-    margin: 0 40px;
-}
 #nav-superior{
     position: relative;
     height: 100px;
@@ -112,20 +109,14 @@
     position: absolute;
     top: 100%;
     left: 0;
-
     width: 100%;
     background-color: orange;
-
     z-index: 999;
     box-sizing: border-box;
-
     opacity: 0;
     transform: translateY(-20px);
-
     pointer-events: none;
-
     visibility: hidden;
-
     transition:
         opacity 0.3s ease,
         transform 0.3s ease;
@@ -144,14 +135,17 @@
     align-items: center;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 #plantilla-burger-options img{
     width: 50px;
-    filter: brightness(30%) opacity(70%)
+    filter: brightness(0%) opacity(70%);
+    margin-left: 20%;
 }
 
 #plantilla-burger-options a {
+    margin-left: 40px;
+    text-align: left;
     color: black;
     font-size: 1.2rem;
     text-decoration: none;

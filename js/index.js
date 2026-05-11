@@ -3,8 +3,11 @@ const contenedor_cartas_personaje = document.querySelector("#contenedor-cartas-p
 const cartaPlantilla = document.querySelector(".carta-personaje");
 cartaPlantilla.remove();
 
+var arreglo_series = [];
+
 const menu_hamburguesa = document.querySelector("#menu-hamburguesa");
 const burgerPlantilla = document.querySelector("#plantilla-burger-options");
+burgerPlantilla.remove();
 
 fetch("http://localhost:3000/obtener_personajes").then(recurso => recurso.json()).then(datos => {
     console.log(datos);
@@ -33,7 +36,33 @@ fetch("http://localhost:3000/obtener_personajes").then(recurso => recurso.json()
         });
 
         //Rellenar datos burger-menu
-        console.log(datos.personajes[i].series);
+        if (!arreglo_series.some(serie => serie.nombre == datos.personajes[i].series)) {
+
+            arreglo_series.push({
+                nombre: datos.personajes[i].series,
+                icono: datos.personajes[i].seriesIcon
+            });
+        }
+
+        arreglo_series.forEach((serie) => {
+            const clonBurger = burgerPlantilla.cloneNode(true);
+            menu_hamburguesa.appendChild(clonBurger);
+
+            const iconoSerieBurger = clonBurger.querySelector("img");
+            iconoSerieBurger.src = serie.icono;
+
+            const namesSeriesBurger = clonBurger.querySelector("a");
+            namesSeriesBurger.innerHTML = serie.nombre;
+        });
+
+
+
+        /*
+        
+        */
+
+
+
     }
 });
 
