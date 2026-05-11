@@ -1,12 +1,21 @@
 const http = require("node:http");
+const fs = require("node:fs");
 const puerto = 3000;
+
+var objeto_personajes;
+
+fs.readFile("./personajes.json", (err, archivo) => {
+    objeto_personajes = JSON.parse(archivo.toString());
+})
 
 const server = http.createServer((request, response) => {
     response.setHeader("Access-Control-Allow-Origin", "*");
     switch(request.method){
         case "GET":
             if(request.url == "/obtener_personajes"){
-                console.log("intento obtener personajes");
+                response.statusCode = 200;
+                response.setHeader("Content-Type", "application/json");
+                response.end(JSON.stringify(objeto_personajes));
             }
         break;
         case "POST":

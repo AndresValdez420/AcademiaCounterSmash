@@ -1,8 +1,18 @@
 //Duplicar cartas de personaje
 const contenedor_cartas_personaje = document.querySelector("#contenedor-cartas-personaje");
-const confesionPlantilla = document.querySelector(".carta-personaje");
+const cartaPlantilla = document.querySelector(".carta-personaje");
 
-fetch("http://localhost:3000/obtener_personajes")
+fetch("http://localhost:3000/obtener_personajes").then(recurso => recurso.json()).then(personajes => {
+    console.log(personajes);
+    for(i = 0; i < personajes.length; i++){
+        console.log("testeo");
+        const clon = cartaPlantilla.cloneNode(true);
+        contenedor_cartas_personaje.appendChild(clon);
+
+        //Rellenar datos de carta
+
+    }
+});
 
 
 
