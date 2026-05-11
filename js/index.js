@@ -3,6 +3,9 @@ const contenedor_cartas_personaje = document.querySelector("#contenedor-cartas-p
 const cartaPlantilla = document.querySelector(".carta-personaje");
 cartaPlantilla.remove();
 
+const menu_hamburguesa = document.querySelector("#menu-hamburguesa");
+const burgerPlantilla = document.querySelector("#plantilla-burger-options");
+
 fetch("http://localhost:3000/obtener_personajes").then(recurso => recurso.json()).then(datos => {
     console.log(datos);
     for (i = 0; i < datos.personajes.length; i++) {
@@ -11,7 +14,6 @@ fetch("http://localhost:3000/obtener_personajes").then(recurso => recurso.json()
 
 
         //Rellenar datos de carta
-
         const namePersonaje = clon.querySelector(".name-personaje");
         namePersonaje.innerHTML = datos.personajes[i].name;
 
@@ -29,6 +31,9 @@ fetch("http://localhost:3000/obtener_personajes").then(recurso => recurso.json()
             renderPersonaje.classList.remove("hover");
             clon.classList.remove("hover");
         });
+
+        //Rellenar datos burger-menu
+        console.log(datos.personajes[i].series);
     }
 });
 
@@ -43,7 +48,6 @@ fetch("http://localhost:3000/obtener_personajes").then(recurso => recurso.json()
 
 
 //nav menu hamburguesa
-const menu_hamburguesa = document.querySelector("#menu-hamburguesa");
 function desplegarMenuSeries() {
     menu_hamburguesa.classList.toggle("activo");
 }
