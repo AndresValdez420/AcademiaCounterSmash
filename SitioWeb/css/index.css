@@ -1,7 +1,28 @@
 :root{
-    /*---fonts*/
+    /*--- fonts*/
     --fuente-titulos: "Spline Sans", sans-serif;
     --fuente-descripcion: "Roboto", sans-serif;
+
+    /* --- PALETA NARANJA --- */
+    --orange-500: #f15a13; /* Color Principal */
+    --orange-200: #ffa17a; /* Tono claro 1 */
+    --orange-300: #ff7e4d; /* Tono claro 2 */
+    --orange-700: #c13e00; /* Tono oscuro 1 */
+    --orange-800: #962a00; /* Tono oscuro 2 */
+
+    /* --- PALETA ÁMBAR / ORO --- */
+    --amber-500: #f39200; /* Color Principal */
+    --amber-200: #ffc478; /* Tono claro 1 */
+    --amber-300: #ffac3d; /* Tono claro 2 */
+    --amber-700: #b16d00; /* Tono oscuro 1 */
+    --amber-800: #885200; /* Tono oscuro 2 */
+
+    /* --- PALETA CARMESÍ / ROSA --- */
+    --crimson-500: #d30644; /* Color Principal */
+    --crimson-200: #ee6f91; /* Tono claro 1 */
+    --crimson-300: #eb3f6f; /* Tono claro 2 */
+    --crimson-700: #9c002e; /* Tono oscuro 1 */
+    --crimson-800: #7a0024; /* Tono oscuro 2 */
 }
 *{
     margin: 0;
@@ -48,7 +69,7 @@
 #navbar{
     position: sticky;
     top: 0;
-    background-color: orangered;
+    background-color: var(--orange-500);
     height: 100px;
     overflow: visible;
     z-index: 1000;
@@ -88,7 +109,9 @@
     font-style: normal;  
     text-align: center;
 }
-
+#search-icon{
+    pointer-events: none;
+}
 #search-bar input:focus {
     outline: none;
 }
@@ -98,7 +121,7 @@
     border-style: none;
     font-weight: bolder;
     background: none;
-    color: orangered;
+    color: var(--orange-500);
     width: 10%;
     cursor: pointer;
     display: flex;
@@ -110,7 +133,8 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: orange;
+    height: 200px;
+    background-color: var(--amber-500);
     z-index: 999;
     box-sizing: border-box;
     opacity: 0;
@@ -136,6 +160,10 @@
     border-bottom: 1px solid rgba(0,0,0,0.1);
     display: flex;
     justify-content: flex-start;
+    cursor: pointer;
+}
+#plantilla-burger-options:hover {
+    background-color: var(--amber-200);
 }
 #plantilla-burger-options img{
     width: 50px;
@@ -143,7 +171,7 @@
     margin-left: 20%;
 }
 
-#plantilla-burger-options a {
+#plantilla-burger-options p {
     margin-left: 40px;
     text-align: left;
     color: black;

@@ -35,13 +35,17 @@
             <div id="buscador-container">
                 <div id="search-bar">
                     <button onclick="desplegarMenuSeries()" id="hamburguesa"><i class="fa-solid fa-bars"></i></button>
-                    <input type="text" placeholder="Nombre / serie del personaje">
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Buscar por nombre del personaje...">
+                    <button id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <div id="menu-hamburguesa">
-                    <div id="plantilla-burger-options">
-                        <img src="https://www.smashbros.com/assets_v2/img/fighter/mario/mark.svg" alt="icono">
-                        <a href="#">Super Mario Bros. series</a>
+                    <div id="plantilla-burger-options" onclick="clicSeries(this)">
+                        <img src="" alt="">
+                        <p href="#"></p>
+                    </div>
+                    <div id="plantilla-burger-options" onclick="clicSeries('todos')">
+                        <img src="https://www.smashbros.com/assets_v2/img/fighter/mii_fighter/mark.svg" alt="icono">
+                        <p href="#">Todas los personajes</p>
                     </div>
                 </div>
             </div>

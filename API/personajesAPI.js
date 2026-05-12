@@ -13,7 +13,6 @@ const server = http.createServer((request, response) => {
     switch(request.method){
         case "GET":
             if(request.url == "/obtener_personajes"){
-                console.log(objeto_personajes);
                 response.statusCode = 200;
                 response.setHeader("Content-Type", "application/json");
                 response.end(JSON.stringify(objeto_personajes));
